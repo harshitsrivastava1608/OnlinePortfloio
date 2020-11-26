@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Portfolio</title>
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+            <!-- jQuery library -->
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+            <!-- Latest compiled and minified JavaScript -->
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <style>
+              
+              body {
+font-family: Arial, Helvetica, sans-serif, Helvetica, Arial, sans-serif;
+padding: 20px 50px 150px;
+font-size: 18px;
+text-align: center;
+background: #006d77;
+}
+.jumbotron{
+   background: #ffddd2;
+}
+.navbar{
+            margin: 0px 50px 0px 160px;
+               padding: 5px 150px 0px 10px ;
+               font-size: 18px;text-align: center;
+              
+           }
+a{
+    text-decoration:turquoise;
+    background: transparent;
+}
+.img-intro{
+    background: url("web-intro.jpg");height: 180px;width: 345px;
+}
+ul {
+text-align: left; display: inline; margin: 0;
+padding: 5px 4px 17px 0;
+list-style: none;
+}
+ul li {
+font: bold 12px/18px sans-serif; display: inline-block; 
+margin-right: -4px; position: relative; padding: 15px 30px; 
+background: #83c5be; cursor: pointer;
+}
+Ul li:hover { background:#edf6f9; color: #fff;
+}
+ul li ul { padding: 0; position: absolute; top: 70px; left: 0;
+width: auto; opacity: 0; visibility: hidden;
+}
+ul li ul li { background: #83c5be; display: block; color: #FF0000; 
+text-shadow: 0 -1px 0 #000;
+}
+ul li ul li:hover { background: #edf6f9;}
+ul li:hover ul { display: block; opacity: 1; visibility: visible;
+}
+.start{
+    padding-top: 80px;
+}
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.container:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+.text {
+  white-space: nowrap; 
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.center {
+   color: #fff;
+   
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 18px;
+
+}
+
+.btn{
+    background: #e29578;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    padding: 10px;
+}
+.btn:hover{
+    box-shadow:0 12px 16px 0 rgba(0,0,0,0.24);
+}
+            </style>
+    </head>
+    <body>
+            
+            <nav class="navbar navbar-fixed-top">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                      </div>
+                    <ul class="nav navbar-nav heading">
+                        <li><h3><a href="#" class="glyphicon glyphicon-home"style="text-decoration: none">Home</a></h3></li>
+                        <li><h3><a href="#intro" class="glyphicon glyphicon-folder-open" style="text-decoration: none">  Introduction</a></h3></li>
+                        <li><h3><a href="#about" class="glyphicon glyphicon-user" style="text-decoration: none">About</a></h3></li>
+                        <li><h3><a href="#contact" class="glyphicon glyphicon-earphone"style="text-decoration: none">Contact</a></h3></li>
+                        <li><h3><a href="#skills" class="glyphicon glyphicon-wrench"style="text-decoration: none">Skills</a></h3></li>
+                        <li><h3><a href="#projects" class="glyphicon glyphicon-check"style="text-decoration: none">Project</a></h3>
+                        <ul>
+                            <li><a href="#web-pro" style="text-decoration: none">Web Projects</a></li>
+                            <li><a href="#app-pro" style="text-decoration: none">Android Projects</a></li>
+                        </ul>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <section id="intro" class="start">
+            <div class="jumbotron">
+            <img class="img-intro">
+               <h2 style="background: white">What is Web Designing or Development</h2>
+               <p>Web design encompasses many different skills and disciplines in the production and maintenance of websites.</br>
+                 The different areas of web design include web graphic design; user interface design (UI design); authoring,</br>
+                  including standardised code and proprietary software; user experience design (UX design); and search engine optimization.
+                  <br> Web development can range from developing a simple single static page of plain text to complex Web-based Internet applications (Web apps), electronic businesses, and social network services.</p>
+               
+            </div>
+            </section>
+            <section id="about" class="start jumbotron">
+               
+            <div class="about">
+            <center>
+                <h1 style="background: white"><u>About</u></h1>
+                <h2><b><i>Harshit Srivastava</i></b></h2>
+                <h3>Pursuing Bachelor Of Technology in <i>Computer Science and Engineering</i></h3></br>
+                <h3>Currently in <i>Pre-final</i> Year Of Study</h3>
+                <h4>From Raj Kumar Goel Institute Of Technology,Ghaziabad;U.P.;India</h4></br>
+                <h4>Hometown:Gorakhpur;U.P.;India</h4>
+                <h3>Resume In Document Format</h3>
+                    <h4>To access the Resume</h4>
+                    <button class="btn"><a href="https://docs.google.com/document/d/1HdpwYKnI4YZKcnrTrLzFVjcDytRD2FFyXzpWfHuaOr0/edit?usp=sharing" style="text-decoration: none">Click Here</a></button>
+            </center>
+            </div>
+            </section>
+            <section id="contact" class="start">
+            <div class="jumbotron container">
+                    <h1 style="background: white"><u>Contact</u></h1>
+                    <img src="img1.jpg" alt="Avatar" class="image">
+                    <div class="center">Hower Here To Know</div>
+                    <div class="overlay">
+                      <div class="text">
+                            <center>
+                                    <h3>Contact Number: 9956172228</h3>
+                                    <h3>Email Id: harshit.srivastava1608@gmail.com</h3>
+                                    <a href="https://www.linkedin.com/in/rkgit-ghaziabad-28631217b" class="fa fa-linkedin"style="text-decoration: none"></a>
+                                </center>
+                      </div>
+                    </div>
+            </div>
+            </section>
+            <section id="skills" class="start">
+                    <div>
+                            <div class="row">
+                                    <h1 style="background: white"><u>Skills</u></h1>
+                                <div class="col-md-6 col-sm-6 column_style" style="background: #ffddd2">
+                                    
+                                    <div class="thumbnail">
+                                    <img src="imgweb.jpg" alt="CSE" class="img-rounded img-thumbnail">
+                                    <div class="caption dept">
+                                    </br>
+                                    <center>
+                                         <h2><i>Web Design and Development </i></h2>
+                                        <button class="button btn dept"><a href="#web-pro" style="text-decoration: none">See Projects</a></button>
+                                        <p>Practice in designing webpages with HTML,CSS and bootstrap</p></br>
+                                        <p>Also skilled to create beautiful webpages on Wordpress.</p>
+                                    </center>
+                                    </div>
+                                    </div>
+                                
+                                </div>
+                                <div class="col-md-6 col-sm-6 column_style" style="background: #ffddd2">
+                                   
+                                <div class="thumbnail">
+                                    <img src="imgandroid.jpg" alt="CSE" class="img-rounded img-thumbnail">
+                                    <div class="caption dept">
+                                    </br>
+                                    <center>
+                                        <h2><i>Android Application Development </i></h2>
+                                        <button class="button btn dept"><a href="#app-pro" style="text-decoration: none">See Projects</a></button>
+                                        <p>Practice in developing Android Native Apps</p></br>
+                                        <p>Flutter App Development</p>
+                                    </center>
+                                    </div>
+                                    </div>
+                                   
+                                </div>
+                               
+                           
+                            </div>
+                         
+            </section>
+            
+            <section id="projects" class="start">
+                    
+                <u><h2  style="background: white">My Projects</h2></u>
+              
+                <section id="web-pro" class="start" style="background: white">
+                       
+                                <h3>Learning Management System Landing Page Design</h3>
+                                <h4>To access this project</h4>
+                                <button class="btn"><a href="http://bucket101020.s3-website-us-east-1.amazonaws.com"style="text-decoration: none">Click Here</a></button>
+                                <div class="jumbotron">
+                                        <div class="thumbnail">
+                                            <img src="web-pro-ss.jpeg" alt="Project Screenshot Here">
+                                        </div>
+                            </div>
+                   
+                </section>
+           
+            
+                <section id="app-pro" class="start" style="background: white">
+                        <div class="jumbotron">
+                                <h3>RKGIT-LMS android app</h3>
+                                <h4>To access this project</h4>
+                                <button class="btn"><a href="https://play.google.com/store/apps/details?id=com.rkgitlms.learningrkgit"style="text-decoration: none">Click Here</a></button>
+                                <div class="thumbnail">
+                                    <img src="app-pro-ss.jpeg" alt="Project Screenshot Here">
+                                </div>
+                    
+                    </div>
+                </section>
+            </section>
+            <h3 style="background: white">More Happiness On The Way..</h3>
+    </body>
+    <footer>
+        <nav class="nav navbar-inverse navbar-fixed-bottom">
+           
+                <h5 style="color:#fff";>Copyright Reserved Harshit Srivastava</h5>
+        </nav>
+        
+    </footer>
+</html>
